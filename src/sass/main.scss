@@ -1,0 +1,42 @@
+/**
+ * Version: 1.1
+ * Author: Marwa Sghaier
+ * Email: marwa.sghaier@proxym-it.com
+ */
+
+/** Here will be only just imported - the order is important*/
+
+//first import variables that might be used throughout all the other files
+@import "helpers/_variables";
+@import "helpers/_mixins";
+
+//initializing css
+@import "base/_reset";
+
+//elements
+@import "components/_icon_fonts";
+@import "components/_navigation";
+@import "components/_forms";
+@import "components/_social_media_share";
+@import "components/_button_links";
+
+//layouts
+@import "layout/_grid";
+@import "layout/_header";
+@import "layout/_footer";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
